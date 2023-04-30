@@ -1,12 +1,6 @@
 import hints
+
 print("Welcome to the 3 Digits Lock Riddle")
-
-jeden = []
-dwa = []
-trzy = []
-cztery = []
-piec = []
-
 n = int(input("How many hints you have: "))
 
 for i in range(n):
@@ -84,5 +78,6 @@ for i in range(n):
             cztery = hints.TwoCTwoWP()
         elif i == 4:
             piec = hints.TwoCTwoWP()
+
 hints.Solve(n,jeden,dwa,trzy,cztery,piec)
 input()
