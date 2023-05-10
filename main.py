@@ -2,7 +2,7 @@ import hints
 
 print("Welcome to the 3 Digits Lock Riddle")
 n = int(input("How many hints you have: "))
-
+jeden,dwa,trzy,cztery,piec = 0,0,0,0,0
 for i in range(n):
     print("Choose your hint:\n")
     print("1. One number is correct and well placed")
