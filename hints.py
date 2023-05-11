@@ -1,8 +1,8 @@
 import itertools
 
-liczby = "0123456789"
+LICZBY = "0123456789"
 
-kombinacje = set(itertools.product(liczby, repeat=3))
+kombinacje = set(itertools.product(LICZBY, repeat=3))
 
 
 def OneCWP():
